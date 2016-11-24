@@ -1,0 +1,21 @@
+{
+  "name": "govuk-styles-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "express-nunjucks": "^2.0.1",
+    "govuk-elements-sass": "^2.2.0",
+    "govuk_template_jinja": "^0.19.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  }
+}

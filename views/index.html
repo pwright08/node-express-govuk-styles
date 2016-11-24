@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+{% if serviceName %} {{ serviceName }} {% endif %}
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+    {% include "includes/phase_banner_alpha.html" %}
+
+    <div class="grid-row">
+        <div class="column-two-thirds">
+
+            <h1 class="heading-xlarge">
+                {% if serviceName %} {{ serviceName }} {% endif %}
+            </h1>
+
+            <p>Example service start page using govuk template and elements.</p>
+
+        </div>
+
+    </div>
+
+</main>
+
+{% endblock %}
