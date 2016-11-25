@@ -11,8 +11,9 @@ Changes that were made to the default express app:
 1. Node modules installed:
    * `govuk_template_jinja`
    * `govuk-elements-sass`
+   * `nunjucks`
    * `express-nunjucks`
-2. Add html views including `layout.html` and `includes` folder
+2. Add html views (`layout.html`, `includes/` etc)
 3. Update app.js to:
    * Use correct template types and templating engine
    * Pass variables into views
