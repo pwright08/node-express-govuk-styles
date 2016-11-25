@@ -16,6 +16,7 @@
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
     "morgan": "~1.7.0",
+    "nunjucks": "^3.0.0",
     "serve-favicon": "~2.3.0"
   }
 }
